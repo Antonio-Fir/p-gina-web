@@ -55,10 +55,13 @@ header {
 
 header .sub-header {
   width: 90%;
-  margin: 20px auto 0 auto;
   padding: 10px;
   border-radius: 20px;
   background: #D31026;
+  position: fixed;
+  top: 10px;
+  left: 5%;
+  right: 5%;
   -webkit-box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
           box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
 }
