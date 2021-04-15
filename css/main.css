@@ -206,7 +206,7 @@ footer {
 
 footer .descripcion {
   width: 80%;
-  margin: auto;
+  margin: 0 auto 50px auto;
 }
 
 footer .descripcion h2 {
