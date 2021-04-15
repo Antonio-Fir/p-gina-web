@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  background: #F2EDDA;
+}
+
+.btn-redes {
+  position: fixed;
+  right: 0;
+  top: 35%;
+  width: 50px;
+  padding: 15px;
+  background: #D31026;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px 0px 0px 20px;
+  -webkit-box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.btn-redes a {
+  text-decoration: none;
+}
+
+.btn-redes a:first-child {
+  margin-bottom: 20px;
+}
+
+.btn-redes a i {
+  color: #F2EDDA;
+  font-size: 30px;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background: #D31026;
+  padding: 10px;
+}
+
+header .sub-header {
+  width: 100%;
+}
+
+header .sub-header .img {
+  width: 30%;
+  margin: auto;
+}
+
+header .sub-header .img img {
+  width: 100%;
+}
+
+header .sub-header a {
+  display: none;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.banner img {
+  width: 100%;
+  height: 100vh;
+}
+
+.contenido {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.contenido .seccion {
+  padding: 30px 0;
+  margin-bottom: 20px;
+}
+
+.contenido .seccion:last-child {
+  margin-bottom: 0;
+}
+
+.contenido .seccion:nth-child(even) {
+  background: #D31026;
+}
+
+.contenido .seccion:nth-child(even) .descripcion {
+  color: #F2EDDA;
+}
+
+.contenido .seccion:nth-child(odd) .descripcion h2 {
+  color: #D31026;
+}
+
+.contenido .seccion:nth-child(odd) .descripcion p {
+  color: #000;
+}
+
+.contenido .seccion .descripcion {
+  width: 80%;
+  margin: auto;
+}
+
+.contenido .seccion .descripcion h2 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.contenido .seccion .descripcion p {
+  text-align: justify;
+  font-weight: 500;
+}
+
+.contenido .seccion .descripcion .cont-ico-ser {
+  width: 60%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenido .seccion .descripcion .cont-ico-ser .ico-ser {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contenido .seccion .descripcion .cont-ico-ser .ico-ser:last-child {
+  margin-bottom: 0px;
+}
+
+.contenido .seccion .descripcion .cont-ico-ser .ico-ser .img {
+  width: 60%;
+  margin: auto;
+}
+
+.contenido .seccion .descripcion .cont-ico-ser .ico-ser .img img {
+  width: 100%;
+}
+
+.contenido .seccion .descripcion .cont-ico-ser .ico-ser p {
+  text-align: center;
+  color: #F2EDDA;
+  padding-top: 10px;
+}
+
+.contenido .seccion .descripcion .cont-ico-ven {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenido .seccion .descripcion .cont-ico-ven .ico-ven {
+  width: 45%;
+  margin-bottom: 50px;
+}
+
+.contenido .seccion .descripcion .cont-ico-ven .ico-ven:last-child {
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+.contenido .seccion .descripcion .cont-ico-ven .ico-ven .img {
+  width: 60%;
+  margin: auto;
+}
+
+.contenido .seccion .descripcion .cont-ico-ven .ico-ven .img img {
+  width: 100%;
+}
+
+.contenido .seccion .descripcion .cont-ico-ven .ico-ven p {
+  text-align: center;
+  color: #D31026;
+  padding-top: 10px;
+}
+
+footer {
+  width: 100%;
+  background: #D31026;
+  padding: 30px 0;
+}
+
+footer .descripcion {
+  width: 80%;
+  margin: auto;
+}
+
+footer .descripcion h2 {
+  color: #F2EDDA;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+footer .descripcion .img {
+  width: 100%;
+}
+
+footer .descripcion .img img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
