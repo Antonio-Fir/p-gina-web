@@ -85,7 +85,7 @@ header .sub-header a {
   height: 100vh;
   background-image: url("./../../img/banner.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .contenido {
