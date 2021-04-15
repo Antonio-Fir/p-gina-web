@@ -54,9 +54,13 @@ header {
 }
 
 header .sub-header {
-  width: 100%;
+  width: 90%;
+  margin: 20px auto 0 auto;
   padding: 10px;
+  border-radius: 20px;
   background: #D31026;
+  -webkit-box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
+          box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
 }
 
 header .sub-header .cont-sub-header .img {
