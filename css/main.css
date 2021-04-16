@@ -96,10 +96,6 @@ header .sub-header .cont-sub-header .img img {
   width: 100%;
 }
 
-header .sub-header .cont-sub-header .img img:last-child {
-  display: none;
-}
-
 header .sub-header .cont-sub-header a {
   display: none;
 }
