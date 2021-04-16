@@ -9,6 +9,54 @@
         background: url('/img/banner-pc.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
+    }      
+}
+
+@media screen and (min-width: 600px) {
+
+    .contenido .seccion .descripcion .cont-ico-ser {
+        display: flex;
+        flex-direction: row;
     }
-        
+
+    .contenido .seccion .descripcion .cont-ico-ser .ico-ser {
+        width: 35%;
+        margin-bottom: 0;
+    }
+
+    /* .contenido .seccion .descripcion .cont-ico-ser .ico-ser .img {
+        width: 100px;
+        height: 1p;
+    } */
+
+    .contenido .seccion .descripcion .cont-ico-ven {
+        flex-direction: row;
+    }
+
+    .contenido .seccion .descripcion .cont-ico-ven:last-child {
+        justify-content: space-around;
+    }
+
+    .contenido .seccion .descripcion .cont-ico-ven .ico-ven {
+        width: 30%;
+        margin-bottom: 30px;
+    }
+    .contenido .seccion .descripcion .cont-ico-ven .ico-ven:last-child {
+        margin-bottom: 30px;
+    }
+
+    footer .descripcion {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .contenido .seccion .descripcion {
+        width: 60%;
+    }
+
+    header {
+        background-size: 100%;
+    }
 }

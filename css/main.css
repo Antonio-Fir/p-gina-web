@@ -106,9 +106,9 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion {
+  width: 100%;
   padding: 30px 0px;
   margin-bottom: 20px;
-  width: 100%;
 }
 
 .contenido .seccion:last-child {
@@ -150,22 +150,24 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion .descripcion .cont-ico-ser {
-  width: 60%;
+  width: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser {
-  width: 100%;
-  margin-bottom: 50px;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto 50px auto;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser:last-child {
@@ -195,25 +197,23 @@ header .sub-header .cont-sub-header a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven {
-  width: 45%;
+  width: 60%;
   margin-bottom: 50px;
-}
-
-.contenido .seccion .descripcion .cont-ico-ven .ico-ven:last-child {
-  margin: auto;
-  margin-bottom: 0px;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven .img {
