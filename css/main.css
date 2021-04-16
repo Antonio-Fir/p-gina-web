@@ -55,7 +55,7 @@ header {
 
 header .sub-header {
   width: 90%;
-  padding: 10px;
+  padding: 15px;
   border-radius: 20px;
   background: #c01125;
   position: fixed;
@@ -123,6 +123,7 @@ header .sub-header .cont-sub-header a {
 .contenido .seccion .descripcion p {
   text-align: justify;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser {
@@ -183,6 +184,7 @@ header .sub-header .cont-sub-header a {
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven {
   width: 45%;
   margin-bottom: 50px;
+  background: blue;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven:last-child {
