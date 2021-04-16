@@ -1,0 +1,14 @@
+@media screen and (min-width: 400px) {
+    footer .descripcion .img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    header {
+        background: url('/img/banner-pc.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+}
