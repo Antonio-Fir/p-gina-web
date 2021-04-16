@@ -85,8 +85,9 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion {
-  padding: 30px 0;
+  padding: 30px 0px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .contenido .seccion:last-child {
@@ -110,7 +111,7 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion .descripcion {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
@@ -123,7 +124,8 @@ header .sub-header .cont-sub-header a {
 .contenido .seccion .descripcion p {
   text-align: justify;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
+  padding: 0 30px;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser {
@@ -150,7 +152,8 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser .img {
-  width: 60%;
+  width: 80px;
+  height: 80px;
   margin: auto;
 }
 
@@ -159,13 +162,14 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser p {
+  font-size: 12px;
   text-align: center;
   color: #F2EDDA;
   padding-top: 10px;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven {
-  width: 90%;
+  width: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,7 +188,6 @@ header .sub-header .cont-sub-header a {
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven {
   width: 45%;
   margin-bottom: 50px;
-  background: blue;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven:last-child {
@@ -193,7 +196,8 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven .img {
-  width: 60%;
+  width: 80px;
+  height: 80px;
   margin: auto;
 }
 
@@ -202,6 +206,7 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven p {
+  font-size: 12px;
   text-align: center;
   color: #c01125;
   padding-top: 10px;
