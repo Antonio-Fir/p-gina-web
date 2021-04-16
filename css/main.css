@@ -17,7 +17,7 @@ body {
   width: 150px;
   height: 50px;
   padding: 10px;
-  background: #D31026;
+  background: #c01125;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,7 +57,7 @@ header .sub-header {
   width: 90%;
   padding: 10px;
   border-radius: 20px;
-  background: #D31026;
+  background: #c01125;
   position: fixed;
   top: 10px;
   left: 5%;
@@ -94,7 +94,7 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion:nth-child(even) {
-  background: #D31026;
+  background: #c01125;
 }
 
 .contenido .seccion:nth-child(even) .descripcion {
@@ -102,7 +102,7 @@ header .sub-header .cont-sub-header a {
 }
 
 .contenido .seccion:nth-child(odd) .descripcion h2 {
-  color: #D31026;
+  color: #c01125;
 }
 
 .contenido .seccion:nth-child(odd) .descripcion p {
@@ -201,13 +201,13 @@ header .sub-header .cont-sub-header a {
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven p {
   text-align: center;
-  color: #D31026;
+  color: #c01125;
   padding-top: 10px;
 }
 
 footer {
   width: 100%;
-  background: purple;
+  background: #c01125;
   padding: 30px 0;
 }
 
