@@ -54,8 +54,8 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-animation-name: fotosxd;
-          animation-name: fotosxd;
+  -webkit-animation-name: sliderMovil;
+          animation-name: sliderMovil;
   -webkit-animation-duration: 25s;
           animation-duration: 25s;
   -webkit-animation-timing-function: ease;
@@ -64,7 +64,7 @@ header {
           animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes fotosxd {
+@-webkit-keyframes sliderMovil {
   0% {
     background: url("/img/sliderMovil/img001.png");
     background-position: center;
@@ -109,7 +109,7 @@ header {
   }
 }
 
-@keyframes fotosxd {
+@keyframes sliderMovil {
   0% {
     background: url("/img/sliderMovil/img001.png");
     background-position: center;
@@ -231,7 +231,7 @@ header .sub-header .cont-sub-header a {
 
 .contenido .seccion .descripcion {
   width: 90%;
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -266,28 +266,24 @@ header .sub-header .cont-sub-header a {
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser {
   width: 60%;
   height: 100%;
-  margin: 0 auto 50px auto;
-}
-
-.contenido .seccion .descripcion .cont-ico-ser .ico-ser:last-child {
-  margin-bottom: 0px;
+  margin: 0 auto 30px auto;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser .img {
   width: 80px;
   height: 80px;
-  margin: auto;
+  margin: 10px auto;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser .img img {
   width: 100%;
+  height: 100%;
 }
 
 .contenido .seccion .descripcion .cont-ico-ser .ico-ser p {
   font-size: 12px;
   text-align: center;
   color: #F2EDDA;
-  padding-top: 10px;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven {
@@ -323,6 +319,7 @@ header .sub-header .cont-sub-header a {
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven .img img {
   width: 100%;
+  height: 100%;
 }
 
 .contenido .seccion .descripcion .cont-ico-ven .ico-ven p {
@@ -339,8 +336,8 @@ footer {
 }
 
 footer .descripcion {
-  width: 80%;
-  margin: 0 auto 50px auto;
+  width: 90%;
+  margin: 0 auto 20px auto;
 }
 
 footer .descripcion h2 {
@@ -352,10 +349,36 @@ footer .descripcion h2 {
 
 footer .descripcion .img {
   width: 100%;
+  max-width: 400px;
   margin: auto;
 }
 
 footer .descripcion .img img {
   width: 100%;
+}
+
+footer .linea {
+  width: 80%;
+  max-width: 500px;
+  height: 1px;
+  background: #F2EDDA;
+  opacity: .5;
+  margin: auto;
+}
+
+footer .autor {
+  width: 80%;
+  margin: 20px auto 50px auto;
+}
+
+footer .autor p {
+  text-align: center;
+  font-size: 12px;
+  color: #F2EDDA;
+}
+
+footer .autor p a {
+  text-decoration: none;
+  color: #F2EDDA;
 }
 /*# sourceMappingURL=main.css.map */
