@@ -48,6 +48,7 @@ body {
 header {
   width: 100%;
   height: 100vh;
+  padding-top: 15px;
   background: url("/img/sliderMovil/img001.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -157,10 +158,7 @@ header .sub-header {
   width: 90%;
   border-radius: 20px;
   background: #c01125;
-  position: fixed;
-  top: 10px;
-  left: 5%;
-  right: 5%;
+  margin: auto;
   -webkit-box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
           box-shadow: -7px 7px 10px 0px rgba(50, 50, 50, 0.75);
   display: -webkit-box;
@@ -233,6 +231,7 @@ header .sub-header .cont-sub-header a {
 
 .contenido .seccion .descripcion {
   width: 90%;
+  max-width: 900px;
   margin: auto;
 }
 
