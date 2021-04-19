@@ -85,6 +85,12 @@
       background-size: cover;
     }
   }
+  header .sub-header .cont-sub-header .img {
+    width: 120px;
+  }
+  .contenido .seccion .descripcion {
+    margin: 50px auto;
+  }
   .contenido .seccion .descripcion h2 {
     font-size: 30px;
   }
