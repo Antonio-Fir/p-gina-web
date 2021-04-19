@@ -14,6 +14,10 @@
 
 @media screen and (min-width: 600px) {
 
+    .contenido {
+        margin: 50px auto
+    }
+
     .contenido .seccion .descripcion .cont-ico-ser {
         display: flex;
         flex-direction: row;
@@ -39,10 +43,6 @@
 
     .contenido .seccion .descripcion .cont-ico-ven .ico-ven {
         width: 30%;
-        margin-bottom: 30px;
-    }
-    .contenido .seccion .descripcion .cont-ico-ven .ico-ven:last-child {
-        margin-bottom: 30px;
     }
 
     footer .descripcion {
@@ -54,6 +54,10 @@
 
     .contenido .seccion .descripcion {
         width: 60%;
+    }
+
+    .contenido .seccion:first-child .descripcion h2 {
+
     }
 
     header {
