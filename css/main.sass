@@ -3,7 +3,7 @@ $colorF: #F2EDDA
 $colorP: #c01125
 $colorExtra: #6A9C78
 
-* 
+*
     margin: 0
     padding: 0
     box-sizing: border-box
@@ -12,7 +12,7 @@ body
     font-family: $fuente
     background: $colorF
 
-.btn-redes 
+.btn-redes
     position: fixed
     bottom: 0
     left: calc( 50% - 75px )
@@ -35,11 +35,16 @@ body
 header
     width: 100%
     height: 100vh
-    background: url('/img/banner-2.jpg')
+    background: url('/img/sliderMovil/img01.jpg')
     background-position: center
     background-repeat: no-repeat
     background-attachment: fixed
     background-size: cover
+    animation-name: sliderMovil
+    animation-duration: 50s
+    animation-iteration-count: infinite
+    animation-timing-function: linear
+
     .sub-header
         width: 90%
         border-radius: 20px
@@ -65,7 +70,7 @@ header
             a
                 display: none
 
-.contenido 
+.contenido
     width: 100%
     margin: 20px auto
     .seccion
@@ -83,7 +88,7 @@ header
                 h2
                     color: $colorP
                 p
-                    color: #000 
+                    color: #000
         .descripcion
             width: 90%
             margin: auto
@@ -96,8 +101,8 @@ header
                 font-weight: 500
                 font-size: 12px
                 padding: 0 30px
-            .cont-ico-ser 
-                width: 100% 
+            .cont-ico-ser
+                width: 100%
                 margin: auto
                 display: flex
                 flex-direction: column
@@ -119,8 +124,8 @@ header
                         text-align: center
                         color: $colorF
                         padding-top: 10px
-            .cont-ico-ven 
-                width: 100% 
+            .cont-ico-ven
+                width: 100%
                 margin: auto
                 display: flex
                 flex-direction: column
@@ -159,3 +164,35 @@ footer
             margin: auto
             img
                 width: 100%
+
+@keyframes sliderMovil
+    0%
+        background: url('/img/sliderMovil/img01.jpg')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+    25%
+        background: url('/img/sliderMovil/img02.jpg')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+    50%
+        background: url('/img/sliderMovil/img03.jpg')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+    75%
+        background: url('/img/sliderMovil/img04.jpg')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+    100%
+        background: url('/img/sliderMovil/img05.jpg')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
