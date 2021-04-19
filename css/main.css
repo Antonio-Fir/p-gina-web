@@ -71,29 +71,36 @@ header {
     background-attachment: fixed;
     background-size: cover;
   }
-  25% {
+  20% {
     background: url("/img/sliderMovil/img002.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-  50% {
+  40% {
     background: url("/img/sliderMovil/img003.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-  75% {
+  60% {
     background: url("/img/sliderMovil/img004.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-  100% {
+  80% {
     background: url("/img/sliderMovil/img005.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  100% {
+    background: url("/img/sliderMovil/img001.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -109,29 +116,36 @@ header {
     background-attachment: fixed;
     background-size: cover;
   }
-  25% {
+  20% {
     background: url("/img/sliderMovil/img002.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-  50% {
+  40% {
     background: url("/img/sliderMovil/img003.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-  75% {
+  60% {
     background: url("/img/sliderMovil/img004.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
   }
-  100% {
+  80% {
     background: url("/img/sliderMovil/img005.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  100% {
+    background: url("/img/sliderMovil/img001.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
